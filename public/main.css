@@ -1,0 +1,27 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+/* The rest of the stuff :) */
+
+body{
+    margin: 0px;
+    background-color: #001220;
+    color: #cbbcd6;
+    
+}
+
+#img1{
+    width: 100%;
+}
+
+#img2{
+
+}
