@@ -7,8 +7,22 @@
     <link rel='stylesheet' href='public/main.css'>
 </head>
 <body>
-    <img src="./public/img/waves-top(2).svg" alt="Background image of wavy layered lines" id="img1"/>
-    <header>Tester Header</header>
-    <img src="./public/img/blob-lava-lamp.svg" alt="Image of blob for background" id="img2">
+    <div class="parallax">
+        <!--layer 1 will be the bottom layer, layer 3 will be the top layer-->
+        <div class="parallax-layer layer2">
+            <img src="./public/img/circle-scatter-haikei.svg" alt="Image of blob for background" id="scattered_dots2" class="background-img">
+        </div>
+        <div class="parallax-layer layer3">
+            <img src="./public/img/circle-scatter-haikei (1).svg" id="scattered_dots1" class="background-img">
+        </div>
+        <div class="parallax-layer layer1">
+            <img src="./public/img/waves-top(2).svg" alt="Background image of wavy layered lines" id="img1" class="background-img"/>
+
+            <header>PARALLAX</header>
+        </div>
+    </div>
+    <div class="normal">
+        <header>NORMAL AREA</header>
+    </div>
 </body>
 </html>
